@@ -70,3 +70,17 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+activate :deploy do |deploy|
+  # deploy.method = :rsync
+  # deploy.host   = "core.booncon.com"
+  # deploy.path   = "/var/www/fighting-club"
+  # # Optional Settings
+  # deploy.user  = "root" # no default
+  # deploy.build_before = true
+  # # deploy.port  = 5309 # ssh port, default: 22
+  # # deploy.clean = true # remove orphaned files on remote host, default: false
+  # # deploy.flags = "-rltgoDvzO --no-p --del -e" # add custom flags, default: -avze
+  deploy.method = :git
+  deploy.build_before = true
+end
