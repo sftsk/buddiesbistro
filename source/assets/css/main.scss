@@ -87,6 +87,13 @@
 		}
 	}
 
+.main-logo {
+	max-height: 140px;
+}
+.main-title {
+	display: none;
+}
+
 /* Wrapper */
 
 	@include keyframes('wrapper') {
@@ -200,7 +207,7 @@
 		}
 
 		p {
-			font-size: 1.25em;
+			font-size: 1.65em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 		}
@@ -345,7 +352,7 @@
 				}
 
 				p {
-					font-size: 1em;
+					font-size: 1.4em;
 				}
 
 				nav {
