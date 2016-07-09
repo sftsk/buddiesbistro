@@ -2,39 +2,100 @@
 title: Buddies' Bistro
 ---
 
-<div id="wrapper">
-	<div id="bg"></div>
-	<div id="overlay"></div>
-	<div id="main">
 
-		<!-- Header -->
-			<header id="header">
-				<h1 class="main-title">Buddies' Bistro</h1>
-				<%= image_tag 'logo_buddies-text-inverted.png', :class => 'main-logo' %>
-				<p>The best Pop-Up Pizzeria you will ever experience.<br>
-          Italian tradition with a Nordic twist.
-        </p>
-				<nav>
-					<ul>
-            <li><a href="https://www.facebook.com/buddiesbistro" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://twitter.com/buddiesbistro" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li> -->
-					</ul>
-				</nav>
-			</header>
+<!-- Page Wrapper -->
+<div id="page-wrapper">
 
-		<!-- Footer -->
-			<footer id="footer">
-				<span class="copyright">&copy; 2015 Buddies' Bistro.</span>
-			</footer>
+	<!-- Banner -->
+	<section id="banner">
+		<div class="inner">
+			<h2 style="display: none;">Buddies' Bistro</h2>
+			<%= image_tag 'logo_buddies-bistro.png', :class => 'main-logo' %>
+			<p>The best Pop-Up Pizzeria you will ever experience.<br>
+				Italian tradition with a Nordic twist.</p>
+			<div>
+				Join our next event on <a href="https://www.facebook.com/events/1092531924126955/">Juli 15th in the heart of Helsinki</a>.
+			</div>
+		</div>
+	</section>
 
-	</div>
+	<!-- Wrapper -->
+	<section id="wrapper">
+
+		<!-- One -->
+			<section id="one" class="wrapper spotlight style1">
+				<div class="inner">
+					<a href="#" class="image"><%= image_tag 'pizza.jpg' %></a>
+					<div class="content">
+						<h2 class="major">Only the best ingredients.</h2>
+						<p>
+The story of our restaurant might sound familiar to you, if you have heard of Friends & Burgers or Kolmen Kaverin Jäätelö. That's right - friendship is the bond that most likely will lead to something sweet and tasty, but in our case it has been all about dough, meat and saltiness.	We love what local producers do and want to tell their story through our pizzas and presence. No bullshitting this time. 					</p>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper alt spotlight style2">
+				<div class="inner">
+					<a href="#" class="image"><%= image_tag 'ovens.jpg' %></a>
+					<div class="content">
+						<h2 class="major">Cooked with wooden fire.</h2>
+						<p>
+It was just a normal day with normal routines, when we found out that there was something extraordinary going on in the pizza world. We already knew that real pizzas can only be made in wooden fired oven, but boy little we knew in the end… We've gone a long way and these days we heat our oven with wooden pellets and let the smokey flavor intensify our natural and pure tastes - anywhere in Finland.		</p>
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper spotlight style3">
+				<div class="inner">
+					<a href="#" class="image"><%= image_tag 'love.jpg' %></a>
+					<div class="content">
+						<h2 class="major">With love & passion.</h2>
+						<p>
+						We believe that pizzas have never been tastier. Or they might have - we don't criticize, because we believe that each and every pizza has to be made with right intensity, passion and love.
+						</p>
+					</div>
+				</div>
+			</section>
+
+		<!-- Four
+			<section id="four" class="wrapper alt style1">
+				<div class="inner">
+					<h2 class="major">The buddies.</h2>
+					<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+					<section class="features">
+						<article>
+							<span class="image"><%= image_tag 'juuso.jpg' %></span>
+							<h3 class="major">Juuso Holstein</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+						</article>
+						<article>
+							<span class="image"><%= image_tag 'luki.jpg' %></span>
+							<h3 class="major">Lukas Jakob Hafner</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+						</article>
+					</section>
+				</div>
+			</section> -->
+
+	</section>
+
+	<!-- Footer -->
+	<section id="footer">
+		<div class="inner">
+			<h2 class="major">Get in touch</h2>
+			<p>
+				If you are interested in following our story check out our social media. That is also were you can inquire about booking us if we got you interested…
+			</p>
+			<ul class="contact">
+				<li class="fa-twitter"><a href="//twitter.com/buddiesbistro">buddiesbistro</a></li>
+				<li class="fa-facebook"><a href="//facebook.com/buddiesbistro">buddiesbistro</a></li>
+				<li class="fa-instagram"><a href="//instagram.com/bistrobuddies">bistrobuddies</a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; 2016 Buddies' Bistro. All rights reserved.</li>
+			</ul>
+		</div>
+	</section>
 </div>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-<script>
-	window.onload = function() { document.body.className = ''; }
-	window.ontouchmove = function() { return false; }
-	window.onorientationchange = function() { document.body.scrollTop = 0; }
-</script>
